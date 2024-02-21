@@ -118,3 +118,7 @@
     background-color: var(--cor-terciaria);
     padding: 24px 0;
 }
+
+.rodape__imagem {
+    max-width: 50px;
+}
