@@ -67,6 +67,15 @@
     font-family: var(--fonte-secundaria);
 }
 
+.apresentacao__conteudo__destaque {
+    color: var(--cor-terciaria);
+}
+
+.apresentacao__conteudo__item {
+    margin-left: 15px;
+    list-style: disc;
+}
+
 .apresentacao__links {
     display: flex;
     flex-direction: column;
