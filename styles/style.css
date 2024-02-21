@@ -14,6 +14,13 @@
 
 .cabecalho__menu {
     display: none;
+    border: 1px solid var(--fonte-secundaria);
+}
+
+.cabecalho__menu ul {
+    border-radius: 8px;
+    border: 1px solid var(--cor-terciaria);
+    background-color: var(--cor-background-menu);
 }
 
 .cabecalho__menu ul li{
@@ -33,7 +40,6 @@
 
 .cabecalho__menu__link:hover {
     background-color: var(--cor-hover);
-    border: 1px solid var(--cor-terciaria);
 }
 
 .apresentacao {
@@ -116,6 +122,14 @@
     font-weight: 400;
     background-color: var(--cor-terciaria);
     padding: 24px 0;
+}
+
+.rodape__icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.5rem;
+    margin-top: 10px;
 }
 
 .rodape__imagem {
