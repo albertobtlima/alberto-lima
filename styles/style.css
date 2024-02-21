@@ -86,7 +86,7 @@
     gap: 16px;
     width: 70%;
     border-radius: 8px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     padding: 21.5px 0;
     color: var(--cor-secundaria);
@@ -98,8 +98,6 @@
 .apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover);
 }
-
-
 
 .rodape {
     color: var(--cor-primaria);
