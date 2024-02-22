@@ -1,0 +1,21 @@
+.rodape {
+    color: var(--cor-primaria);
+    font-family: var(--fonte-primaria);
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 400;
+    background-color: var(--cor-terciaria);
+    padding: 24px 0;
+}
+
+.rodape__icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.rodape__imagem {
+    max-width: 50px;
+}
